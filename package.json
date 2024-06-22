@@ -4,6 +4,7 @@
   "description": "Vulnera is a command-line interface (CLI) tool designed to deploy multiple vulnerable servers for educational and testing purposes",
   "main": "index.js",
   "scripts": {
+    "clickjacking": "node ./servers/clickjacking/server.js",
     "cssi": "node ./servers/cssi/server.js",
     "htmli": "node ./servers/htmli/server.js",
     "xss-dom": "node ./servers/xss/dom/server.js",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/stringmanolo/vulnera#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
   }
 }
