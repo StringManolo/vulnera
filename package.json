@@ -4,11 +4,11 @@
   "description": "Vulnera is a command-line interface (CLI) tool designed to deploy multiple vulnerable servers for educational and testing purposes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "cssi": "node ./servers/cssi/server.js",
     "htmli": "node ./servers/htmli/server.js",
+    "xss-dom": "node ./servers/xss/dom/server.js",
     "xss-reflected": "node ./servers/xss/reflected/server.js",
-    "xss-stored": "node ./servers/xss/stored/server.js",
-    "xss-dom": "node ./servers/xss/dom/server.js"
+    "xss-stored": "node ./servers/xss/stored/server.js"
   },
   "repository": {
     "type": "git",
