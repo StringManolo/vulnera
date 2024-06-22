@@ -6,6 +6,7 @@
   "scripts": {
     "clickjacking": "node ./servers/clickjacking/server.js",
     "cssi": "node ./servers/cssi/server.js",
+    "dns-zonetransfer": "node ./servers/dns/zone_transfer/server.js",
     "htmli": "node ./servers/htmli/server.js",
     "xss-dom": "node ./servers/xss/dom/server.js",
     "xss-reflected": "node ./servers/xss/reflected/server.js",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/stringmanolo/vulnera#readme",
   "dependencies": {
+    "dnsd": "^0.9.6",
     "express": "^4.19.2",
     "express-session": "^1.18.0"
   }
