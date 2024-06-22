@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "htmli": "node ./servers/htmli/server.js",
     "xss-reflected": "node ./servers/xss/reflected/server.js",
-    "xss-stored": "node ./servers/xss/stored/server.js"
+    "xss-stored": "node ./servers/xss/stored/server.js",
+    "xss-dom": "node ./servers/xss/dom/server.js"
   },
   "repository": {
     "type": "git",
