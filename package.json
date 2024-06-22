@@ -7,6 +7,7 @@
     "clickjacking": "node ./servers/clickjacking/server.js",
     "cssi": "node ./servers/cssi/server.js",
     "dns-zonetransfer": "node ./servers/dns/zone_transfer/server.js",
+    "hpp": "node ./servers/hpp/server.js",
     "htmli": "node ./servers/htmli/server.js",
     "xss-dom": "node ./servers/xss/dom/server.js",
     "xss-reflected": "node ./servers/xss/reflected/server.js",
