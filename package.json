@@ -11,6 +11,7 @@
     "htmli": "node ./servers/htmli/server.js",
     "lfi": "node ./servers/lfi/server.js",
     "path-traversal": "node ./servers/path_traversal/server.js",
+    "rfi": "node ./servers/rfi/server.js",
     "xss-dom": "node ./servers/xss/dom/server.js",
     "xss-reflected": "node ./servers/xss/reflected/server.js",
     "xss-stored": "node ./servers/xss/stored/server.js"
