@@ -1,11 +1,15 @@
 #!/usr/bin/env bash
 
 
-# If this script is run as vulnera command, go to .vulnera_folder
-if [ -d ".vulnera_folder" ]; then
-  cd ./.vulnera_folder
+if [ -f "/data/data/com.termux/usr/bin/.vulnera_folder" ]; then
+  SCRIPT_DIR=$(cat /data/data/com.termux/usr/bin/.vulnera_folder)
+elif [ -f "/usr/local/bin/.vulnera_folder" ]; then
+  SCRIPT_DIR=$(cat /usr/local/bin/.vulnera_folder)
+else
+  SCRIPT_DIR=$(pwd)
 fi
 
+cd "$SCRIPT_DIR"
 
 if [ $# -eq 0 ]; then
     echo "Usage: vulnera help"
