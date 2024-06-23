@@ -75,6 +75,8 @@ vulnera update
 
 Contributions are welcome! If you want to contribute to Vulnera, fork the repository and submit a pull request with your proposed changes.
 
+[More Details](https://github.com/StringManolo/vulnera/blob/main/CONTRIBUTE.md)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

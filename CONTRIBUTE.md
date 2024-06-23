@@ -1,5 +1,8 @@
 # Contribute
 
+## If you unsure
+If you unsure how to contribute after read this file, just open a new issue with your questions. 
+
 ### Servers
 If you want to submit your own server on a pull request, also submit:
 - new folder with the name of the vulnerability under servers folder
@@ -15,7 +18,7 @@ The exploit.txt file has to include vulnerability description, exploit code and 
   "nameofvuln-code": "cat ./servers/nameofvuln/server.js",
 ```
 
-##### Considerstions
+##### Considerations
 - Big files will not be acepted.
 - Vulnerability should be coded in node. (if you write it in another language open an issue instead requesting a port to node.js or bash, once you have it submit a pull request.)
 - Vulnerability should be coded in English. 
@@ -23,4 +26,4 @@ The exploit.txt file has to include vulnerability description, exploit code and 
 
 
 ### CLI
-Contributions on the cli will be accepted. But don't make use of unusuall preinstaled tools. 
+Contributions on the cli scripts will be accepted. But don't make use of not preinstaled tools like pup, w3m, lynx, etc.  
