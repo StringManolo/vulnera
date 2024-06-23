@@ -43,6 +43,18 @@ vulnera start clickjacking
 vulnera list
 ```
 
+#### show server code
+```bash
+# vulnera code <server_name>
+vulnera code clickjacking
+```
+
+#### show exploit
+```bash
+# vulnera exploit <server_name>
+vulnera exploit clickjacking
+```
+
 #### update
 ```bash
 vulnera update
