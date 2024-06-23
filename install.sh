@@ -18,9 +18,10 @@ fi
 echo 'Installing servers node modules...'
 npm install
 
-echo '\n\nInstalling vulnera...-
+echo -e "\n\nInstalling vulnera..."
 
 # install vulnera
+
 SCRIPT_DIR=$(pwd)
 if [ -d "/data/data/com.termux" ]; then
   echo 'Termux detected, installing in termux'
