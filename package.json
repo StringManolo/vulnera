@@ -43,6 +43,7 @@
     "xss-reflected": "node ./servers/xss/reflected/server.js",
        "xss-reflected-exploit": "cat ./servers/xss/reflected/exploit.txt",
        "xss-reflected-code": "cat ./servers/xss/reflected/server.js",
+   
     "xss-stored": "node ./servers/xss/stored/server.js",
        "xss-stored-exploit": "cat ./servers/xss/stored/exploit.txt",
        "xss-stored-code": "cat ./servers/xss/stored/server.js"
