@@ -1,10 +1,10 @@
 # TODO
 
-✔️  -> Done
-✖️  -> Not Done
-🔹 -> Table Header
+✔️  -> Done  
+✖️  -> Not Done  
+🔹 -> Table Header  
+    
   
-
 | Task                                                | Status |
 |-----------------------------------------------------|:------:|
 |                        **Cli**                      |   🔹   |
