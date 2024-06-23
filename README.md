@@ -83,4 +83,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or feedback, feel free to contact the maintainer at [Telegram](t.me/stringmanolo) or open an issue.
+For questions or feedback, feel free to contact the maintainer at [Telegram](https://t.me/stringmanolo) or open an issue.
