@@ -24,7 +24,7 @@ if [ $# -gt 0 ]; then
   ;;
 
   exploit|--exploit)
-    npm run "$2"-exploit # $2 is the first argument after --exploit (server name)
+    npm run "$2-exploit" # $2 is the first argument after --exploit (server name)
     shift 2
   ;;
 
@@ -34,7 +34,7 @@ if [ $# -gt 0 ]; then
   ;;
 
   code|--code)
-    npm run "$2"-code # $2 is the first argument after --code (server name)
+    npm run "$2-code" # $2 is the first argument after --code (server name)
     shift 2
   ;;
 
