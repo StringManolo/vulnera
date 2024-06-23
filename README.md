@@ -10,6 +10,12 @@ Vulnera is a command-line interface (CLI) tool that allows you to deploy and man
 
 ## Installation
 
+### Prerequisites
+- Linux or Termux
+- `git`
+- `npm`
+- `node`
+
 ### Download
 ```bash
 git clone https://github.com/stringmanolo/vulnera.git
