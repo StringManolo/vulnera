@@ -9,6 +9,7 @@
     "dns-zonetransfer": "node ./servers/dns/zone_transfer/server.js",
     "hpp": "node ./servers/hpp/server.js",
     "htmli": "node ./servers/htmli/server.js",
+    "lfi": "node ./servers/lfi/server.js",
     "path-traversal": "node ./servers/path_traversal/server.js",
     "xss-dom": "node ./servers/xss/dom/server.js",
     "xss-reflected": "node ./servers/xss/reflected/server.js",
@@ -27,6 +28,7 @@
   "dependencies": {
     "dnsd": "^0.9.6",
     "express": "^4.19.2",
-    "express-session": "^1.18.0"
+    "express-session": "^1.18.0",
+    "npm-registry-fetch": "^17.1.0"
   }
 }
