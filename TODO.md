@@ -7,9 +7,9 @@
 
 | Task                                                | Status |
 |-----------------------------------------------------|:------:|
-| **Cli**                                             |   🔹   |
+|                        **Cli**                      |   🔹   |
 | Tool to manage servers                              |    ✔️   |
-| **List**                                            |   🔹   |
+|                        **List**                     |   🔹   |
 | Show help with $ vulnera help or $ vulnera          |    ✔️   |
 | List the servers with $ vulnera list                |    ✔️   |
 | Start the server with $ vulnera start <server_name> |    ✔️   |
