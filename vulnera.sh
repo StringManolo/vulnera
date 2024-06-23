@@ -12,14 +12,16 @@ fi
 cd "$SCRIPT_DIR"
 
 if [ $# -eq 0 ]; then
-    echo "Usage: vulnera help"
+    echo -e "Usage: \033[1;33mvulnera help\033[0m"
 fi
 
 if [ $# -gt 0 ]; then
   case "$1" in
 
     list|--list)
-    cat "./server_list.txt"
+    # lists available servers and interpret colors
+    cat "./server_list.txt" | while IFS= read -r line; do echo -e "$line"; done
+
     shift 2
   ;;
 
@@ -44,20 +46,21 @@ if [ $# -gt 0 ]; then
   ;;
 
   help|h|-h|--help)
-    echo "Usage: vulnera [command] [server]"
-    echo -e "\nexamples:" 
-    echo "$ vulnera list    # lists available servers"
-    echo "$ vulnera start clickjacking    # starts clickjacking server"
-    echo "$ vulnera code clickjacking   # shows code for clickjacking server"
-    echo "$ vulnera exploit clickjacking    # shows exploit for clickjacking server"
-    echo "$ vulnera update"
-    echo "$ vulnera help    # shows this help message"
+    echo -e "Usage: \033[1;33mvulnera [command] [server]\033[0m"
+    echo -e "\nexamples:"
+    echo -e "$ \033[1;32mvulnera list\033[0m                        # lists available servers"
+    echo -e "$ \033[1;32mvulnera start clickjacking\033[0m          # starts clickjacking server"
+    echo -e "$ \033[1;32mvulnera code clickjacking\033[0m           # shows code for clickjacking server"
+    echo -e "$ \033[1;32mvulnera exploit clickjacking\033[0m        # shows exploit for clickjacking server"
+    echo -e "$ \033[1;32mvulnera update\033[0m"
+    echo -e "$ \033[1;32mvulnera help\033[0m                        # shows this help message"
 
     exit 0
   ;;
 
+
   *)
-    echo "Unrecognized argument: $1"
+    echo -e "\033[1;31mUnrecognized argument: $1\033[0m"
     exit 1
   ;;
   

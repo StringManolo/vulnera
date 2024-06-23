@@ -1,6 +1,6 @@
 {
   "name": "vulnera",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vulnera is a command-line interface (CLI) tool designed to deploy multiple vulnerable servers for educational and testing purposes",
   "main": "index.js",
   "scripts": {

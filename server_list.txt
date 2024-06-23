@@ -1,34 +1,14 @@
-Available servers:
+\033[1;33mAvailable servers:\033[0m
 
-clickjacking
-    node ./servers/clickjacking/server.js
+\033[1;32mclickjacking       \033[0mnode ./servers/clickjacking/server.js
+\033[1;32mcssi               \033[0mnode ./servers/cssi/server.js
+\033[1;32mdns-zonetransfer   \033[0mnode ./servers/dns/zone_transfer/server.js
+\033[1;32mhpp                \033[0mnode ./servers/hpp/server.js
+\033[1;32mhtmli              \033[0mnode ./servers/htmli/server.js
+\033[1;32mlfi                \033[0mnode ./servers/lfi/server.js
+\033[1;32mpath-traversal     \033[0mnode ./servers/path_traversal/server.js
+\033[1;32mrfi                \033[0mnode ./servers/rfi/server.js
+\033[1;32mxss-dom            \033[0mnode ./servers/xss/dom/server.js
+\033[1;32mxss-reflected      \033[0mnode ./servers/xss/reflected/server.js
+\033[1;32mxss-stored         \033[0mnode ./servers/xss/stored/server.js
 
-cssi
-    node ./servers/cssi/server.js
-
-dns-zonetransfer
-    node ./servers/dns/zone_transfer/server.js
-
-hpp
-    node ./servers/hpp/server.js
-
-htmli
-    node ./servers/htmli/server.js
-
-lfi
-    node ./servers/lfi/server.js
-
-path-traversal
-    node ./servers/path_traversal/server.js
-
-rfi
-    node ./servers/rfi/server.js
-
-xss-dom
-    node ./servers/xss/dom/server.js
-
-xss-reflected
-    node ./servers/xss/reflected/server.js
-
-xss-stored
-    node ./servers/xss/stored/server.js
