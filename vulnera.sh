@@ -19,7 +19,7 @@ if [ $# -gt 0 ]; then
   case "$1" in
 
     list|--list)
-    npm run
+    cat ./server_list.txt
     shift 2
   ;;
 
