@@ -5,7 +5,7 @@ Vulnera is a command-line interface (CLI) tool that allows you to deploy and man
 ## Features
 
 - **Choose Your Vulnerable Environment:** Select from a variety of pre-configured vulnerable server setups.
-- **Educational Tool:** Learn about common security vulnerabilities and best practices in a safe, controlled environment.
+- **Educational Tool:** Learn about common security vulnerabilities and best practices.
 - **Flexible and Customizable:** Easily deploy, manage, and interact with vulnerable servers via a simple CLI interface.
 
 ## Installation
@@ -15,6 +15,11 @@ Vulnera is a command-line interface (CLI) tool that allows you to deploy and man
 - `git`
 - `npm`
 - `node`
+
+##### Warning
+- Some vulnerabilities are real, not simulated. 
+- Do not expose ports ranging from 3000-3999 to the internet.
+- You can run most servers offline. (recommended)
 
 ### Download
 ```bash
