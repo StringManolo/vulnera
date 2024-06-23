@@ -38,8 +38,8 @@ else
   echo 'Bin created at /bin/vulnera'
   chmod 775 /bin/vulnera
   echo 'Permissions set'
-  ln -s "$SCRIPT_DIR" "/usr/bin/.vulnera_folder"
-  echo "Link to $SCRIPT_DIR created at /usr/bin/.vulnera_folder"
+  ln -s "$SCRIPT_DIR" "/bin/.vulnera_folder"
+  echo "Link to $SCRIPT_DIR created at /bin/.vulnera_folder"
   echo "Installed in linux. You can run $ vulnera help"
 fi 
 
