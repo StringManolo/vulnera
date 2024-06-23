@@ -14,6 +14,12 @@ then
     exit
 fi
 
+if ! command -v git &> /dev/null
+then
+    echo "Git is not installed. Install it and try again"
+    exit
+fi
+
 # install node modules
 echo 'Installing servers node modules...'
 npm install

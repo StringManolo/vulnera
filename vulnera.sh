@@ -25,11 +25,15 @@ if [ $# -gt 0 ]; then
               npm run "$2" # $2 is the first argument after --start (server name)
                 shift 2
                 ;;
+            update|--update)
+              git pull && ./install.sh
+
             help|h|-h|--help)
                 echo "Usage: vulnera [command] [server]"
                 echo -e "\nexamples:" 
                 echo "$ vulnera list"
                 echo "$ vulnera start clickjacking"
+                echo "$ vulnera update"
 
                 exit 0
                 ;;

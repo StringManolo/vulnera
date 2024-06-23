@@ -2,9 +2,6 @@
 
 Vulnera is a command-line interface (CLI) tool that allows you to deploy and manage multiple vulnerable server environments for educational and testing purposes.
 
-# IMPORTANT
-### If you read this, means this proyect is not  developed yet. Check it later :D
-
 ## Features
 
 - **Choose Your Vulnerable Environment:** Select from a variety of pre-configured vulnerable server setups.
@@ -13,41 +10,42 @@ Vulnera is a command-line interface (CLI) tool that allows you to deploy and man
 
 ## Installation
 
-To install Vulnera, simply clone this repository:
-
+### Download
 ```bash
 git clone https://github.com/stringmanolo/vulnera.git
 cd vulnera
+```
+
+### Install
+```bash
+./install.sh
 ```
 
 ## Usage
 
 ### Basic Usage
 
-Launch a vulnerable server environment:
-
+#### help
 ```bash
-vulnera start
+# show available commands
+vulnera help
 ```
 
-List available vulnerable server configurations:
-
+#### start a server
 ```bash
+# vulnera start <server_name>
+vulnera start clickjacking
+```
+
+#### list servers
+```bash
+# list all available servers
 vulnera list
 ```
 
-Select and start a specific vulnerable server:
-
+#### update
 ```bash
-vulnera start <server-name>
-```
-
-### Advanced Options
-
-Explore additional commands and customization options:
-
-```bash
-vulnera --help
+vulnera update
 ```
 
 ## Contributing
