@@ -23,8 +23,18 @@ if [ $# -gt 0 ]; then
     shift 2
   ;;
 
+  exploit|--exploit)
+    npm run "$2"-exploit # $2 is the first argument after --exploit (server name)
+    shift 2
+  ;;
+
   start|--start)
     npm run "$2" # $2 is the first argument after --start (server name)
+    shift 2
+  ;;
+
+  code|--code)
+    npm run "$2"-code # $2 is the first argument after --code (server name)
     shift 2
   ;;
 
@@ -36,9 +46,12 @@ if [ $# -gt 0 ]; then
   help|h|-h|--help)
     echo "Usage: vulnera [command] [server]"
     echo -e "\nexamples:" 
-    echo "$ vulnera list"
-    echo "$ vulnera start clickjacking"
+    echo "$ vulnera list    # lists available servers"
+    echo "$ vulnera start clickjacking    # starts clickjacking server"
+    echo "$ vulnera code clickjacking   # shows code for clickjacking server"
+    echo "$ vulnera exploit clickjacking    # shows exploit for clickjacking server"
     echo "$ vulnera update"
+    echo "$ vulnera help    # shows this help message"
 
     exit 0
   ;;
