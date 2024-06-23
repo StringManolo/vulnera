@@ -15,4 +15,5 @@
 | Start the server with $ vulnera start <server_name> |    ✔️   |
 | Install as a cli in /bin/vulnera                    |    ✔️   |
 | Add more vulnerable servers                         |    ✖️   |
-
+|       **soscw** (another project, ignore this)      |   🔹   |
+| Add documentation to exploit the servers using OS   |    ✖️   |
