@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 
-if [ -f "/data/data/com.termux/usr/bin/.vulnera_folder" ]; then
-  SCRIPT_DIR=$(cat /data/data/com.termux/usr/bin/.vulnera_folder)
-elif [ -f "/usr/local/bin/.vulnera_folder" ]; then
-  SCRIPT_DIR=$(cat /usr/local/bin/.vulnera_folder)
+if [ -f "/data/data/com.termux/files/usr/bin/.vulnera_folder" ]; then
+  SCRIPT_DIR=$(cat /data/data/com.termux/files/usr/bin/.vulnera_folder)
+elif [ -f "/bin/.vulnera_folder" ]; then
+  SCRIPT_DIR=$(cat /bin/.vulnera_folder)
 else
   SCRIPT_DIR=$(pwd)
 fi

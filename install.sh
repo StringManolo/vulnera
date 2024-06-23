@@ -25,11 +25,11 @@ echo -e "\n\nInstalling vulnera..."
 SCRIPT_DIR=$(pwd)
 if [ -d "/data/data/com.termux" ]; then
   echo 'Termux detected, installing in termux'
-  cp ./vulnera.sh /data/data/com.termux/usr/bin/vulnera
-  echo 'Bin created at /data/data/com.termux/usr/bin/vulnera'
+  cp ./vulnera.sh /data/data/com.termux/files/usr/bin/vulnera
+  echo 'Bin created at /data/data/com.termux/files/usr/bin/vulnera'
   chmod 775 /data/data/com.termux/usr/bin/vulnera
   echo 'Permissions set'
-  ln -s "$SCRIPT_DIR" "/data/data/com.termux/usr/bin/.vulnera_folder"
+  echo "$SCRIPT_DIR" > /data/data/com.termux/files/usr/bin/.vulnera_folder
   echo "Link to $SCRIPT_DIR created at /data/data/com.termux/usr/bin/.vulnera_folder"
   echo "Installed in termux. You can run $ vulnera help"
 else
@@ -38,7 +38,7 @@ else
   echo 'Bin created at /bin/vulnera'
   chmod 775 /bin/vulnera
   echo 'Permissions set'
-  ln -s "$SCRIPT_DIR" "/bin/.vulnera_folder"
+  echo "$SCRIPT_DIR" > /bin/.vulnera_folder
   echo "Link to $SCRIPT_DIR created at /bin/.vulnera_folder"
   echo "Installed in linux. You can run $ vulnera help"
 fi 
