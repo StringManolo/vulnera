@@ -19,7 +19,7 @@ if [ $# -gt 0 ]; then
   case "$1" in
 
     list|--list)
-    cat ./server_list.txt
+    cat "./server_list.txt"
     shift 2
   ;;
 
