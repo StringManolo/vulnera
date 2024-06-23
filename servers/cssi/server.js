@@ -49,7 +49,6 @@ app.get('/', (req, res) => {
             </form>
             <div id="profile">
                 <p>Your username: <span id="id${username}">${username}</span></p>
-                <img src="/pi.png" alt="pi image">
             </div>
         </body>
         </html>
