@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# install node modules
+npm install
+
 SCRIPT_DIR=$(pwd)
 
 if [ -d "/data/data/com.termux" ]; then
@@ -13,3 +16,4 @@ else
   ln -s "$SCRIPT_DIR" "/usr/bin/.vulnera_folder"
   echo "Installed in linux"
 fi 
+
