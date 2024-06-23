@@ -1,4 +1,4 @@
-# TOOD
+# TODO
 
 ## Cli 
 Tool to manage servers ✔️
