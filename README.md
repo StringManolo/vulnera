@@ -79,7 +79,7 @@ Contributions are welcome! If you want to contribute to Vulnera, fork the reposi
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GPLv3 License](https://github.com/StringManolo/vulnera/blob/main/LICENSE.md).
 
 ## Contact
 
