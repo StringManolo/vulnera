@@ -5,48 +5,41 @@
   "main": "index.js",
   "scripts": {
     "clickjacking": "node ./servers/clickjacking/server.js",
-      "clickjacking-exploit": "cat ./servers/clickjacking/exploit.txt",
-      "clickjacking-code": "cat ./servers/clickjacking/server.js",
-  
+    "clickjacking-exploit": "cat ./servers/clickjacking/exploit.txt",
+    "clickjacking-code": "cat ./servers/clickjacking/server.js",
+    "csrf": "node ./servers/csrf/server.js",
+    "csrf-exploit": "cat ./servers/csrf/exploit.txt",
+    "csrf-code": "cat ./servers/csrf/server.js",
     "cssi": "node ./servers/cssi/server.js",
-       "cssi-exploit": "cat ./servers/cssi/exploit.txt", 
-       "cssi-code": "cat ./servers/cssi/server.js",
-
+    "cssi-exploit": "cat ./servers/cssi/exploit.txt",
+    "cssi-code": "cat ./servers/cssi/server.js",
     "dns-zonetransfer": "node ./servers/dns/zone_transfer/server.js",
-       "dns-zonetransfer-exploit": "cat ./servers/dns/zone_transfer/exploit.txt",
-       "dns-zonetransfer-code": "cat ./servers/dns/zone_transfer/server.js",
-
+    "dns-zonetransfer-exploit": "cat ./servers/dns/zone_transfer/exploit.txt",
+    "dns-zonetransfer-code": "cat ./servers/dns/zone_transfer/server.js",
     "hpp": "node ./servers/hpp/server.js",
-       "hpp-exploit": "cat ./servers/hpp/exploit.txt",
-       "hpp-code": "cat ./servers/hpp/server.js",
-
+    "hpp-exploit": "cat ./servers/hpp/exploit.txt",
+    "hpp-code": "cat ./servers/hpp/server.js",
     "htmli": "node ./servers/htmli/server.js",
-       "htmli-exploit": "cat ./servers/htmli/exploit.txt",
-       "htmli-code": "cat ./servers/htmli/server.js",
-    
+    "htmli-exploit": "cat ./servers/htmli/exploit.txt",
+    "htmli-code": "cat ./servers/htmli/server.js",
     "lfi": "node ./servers/lfi/server.js",
-       "lfi-exploit": "cat ./servers/lfi/exploit.txt",
-       "lfi-code": "cat ./servers/lfi/server.js",
-
+    "lfi-exploit": "cat ./servers/lfi/exploit.txt",
+    "lfi-code": "cat ./servers/lfi/server.js",
     "path-traversal": "node ./servers/path_traversal/server.js",
-       "path-traversal-exploit": "cat ./servers/path_traversal/exploit.txt",
-       "path-traversal-code": "cat ./servers/path_traversal/server.js",
-
+    "path-traversal-exploit": "cat ./servers/path_traversal/exploit.txt",
+    "path-traversal-code": "cat ./servers/path_traversal/server.js",
     "rfi": "node ./servers/rfi/server.js",
-       "rfi-exploit": "cat ./servers/rfi/exploit.txt",
-       "rfi-code": "cat ./servers/rfi/server.js",
-
+    "rfi-exploit": "cat ./servers/rfi/exploit.txt",
+    "rfi-code": "cat ./servers/rfi/server.js",
     "xss-dom": "node ./servers/xss/dom/server.js",
-       "xss-dom-exploit": "cat ./servers/xss/dom/exploit.txt",
-       "xss-dom-code": "cat ./servers/xss/dom/server.js",
-
+    "xss-dom-exploit": "cat ./servers/xss/dom/exploit.txt",
+    "xss-dom-code": "cat ./servers/xss/dom/server.js",
     "xss-reflected": "node ./servers/xss/reflected/server.js",
-       "xss-reflected-exploit": "cat ./servers/xss/reflected/exploit.txt",
-       "xss-reflected-code": "cat ./servers/xss/reflected/server.js",
-   
+    "xss-reflected-exploit": "cat ./servers/xss/reflected/exploit.txt",
+    "xss-reflected-code": "cat ./servers/xss/reflected/server.js",
     "xss-stored": "node ./servers/xss/stored/server.js",
-       "xss-stored-exploit": "cat ./servers/xss/stored/exploit.txt",
-       "xss-stored-code": "cat ./servers/xss/stored/server.js"
+    "xss-stored-exploit": "cat ./servers/xss/stored/exploit.txt",
+    "xss-stored-code": "cat ./servers/xss/stored/server.js"
   },
   "repository": {
     "type": "git",
@@ -59,6 +52,7 @@
   },
   "homepage": "https://github.com/stringmanolo/vulnera#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "dnsd": "^0.9.6",
     "express": "^4.19.2",
     "express-session": "^1.18.0",

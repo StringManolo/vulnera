@@ -2,6 +2,7 @@
 
 \033[1;32mclickjacking       \033[0mnode ./servers/clickjacking/server.js
 \033[1;32mcssi               \033[0mnode ./servers/cssi/server.js
+\033[1;32mcsrf               \033[0mnode ./servers/csrf/server.js
 \033[1;32mdns-zonetransfer   \033[0mnode ./servers/dns/zone_transfer/server.js
 \033[1;32mhpp                \033[0mnode ./servers/hpp/server.js
 \033[1;32mhtmli              \033[0mnode ./servers/htmli/server.js
