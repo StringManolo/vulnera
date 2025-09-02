@@ -9,6 +9,7 @@
 \033[1;32mlfi                \033[0mnode ./servers/lfi/server.js
 \033[1;32mpath-traversal     \033[0mnode ./servers/path_traversal/server.js
 \033[1;32mrfi                \033[0mnode ./servers/rfi/server.js
+\033[1;32msqli               \033[0mnode ./servers/sqli/server.js
 \033[1;32mxss-dom            \033[0mnode ./servers/xss/dom/server.js
 \033[1;32mxss-reflected      \033[0mnode ./servers/xss/reflected/server.js
 \033[1;32mxss-stored         \033[0mnode ./servers/xss/stored/server.js

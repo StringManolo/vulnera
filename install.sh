@@ -20,6 +20,12 @@ then
     exit
 fi
 
+if ! command -version sqlite3 &> /dev/null
+then
+    echo "SQLITE is not installed. Install it if you want to run SQLi servers"
+fi
+
+
 # install node modules
 echo 'Installing servers node modules...'
 npm install

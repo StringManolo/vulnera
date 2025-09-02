@@ -31,6 +31,9 @@
     "rfi": "node ./servers/rfi/server.js",
     "rfi-exploit": "cat ./servers/rfi/exploit.txt",
     "rfi-code": "cat ./servers/rfi/server.js",
+    "sqli": "node ./servers/sqli/server.js",
+    "sqli-exploit": "cat ./servers/sqli/exploit.txt",
+    "sqli-code": "cat ./servers/sqli/server.js",
     "xss-dom": "node ./servers/xss/dom/server.js",
     "xss-dom-exploit": "cat ./servers/xss/dom/exploit.txt",
     "xss-dom-code": "cat ./servers/xss/dom/server.js",
@@ -56,6 +59,7 @@
     "dnsd": "^0.9.6",
     "express": "^4.19.2",
     "express-session": "^1.18.0",
-    "npm-registry-fetch": "^17.1.0"
+    "npm-registry-fetch": "^17.1.0",
+    "sqlite3": "^5.1.7"
   }
 }
